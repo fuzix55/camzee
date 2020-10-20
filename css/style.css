@@ -1,0 +1,207 @@
+body {
+    background-color: #EDEDED;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.alert {
+    position: absolute;
+    top: -2px;
+    height: 40px;
+    width: 5000px;
+    background-color: rgb(97, 194, 93);
+    z-index: -1;
+ }
+
+ .alerttext {
+    font-family: poppins;
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    margin: -1260px;
+    color: rgb(26, 26, 26);
+ }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding-top: 250px;
+  }
+
+.button {
+    font-size: 19px;
+    font-family: poppins;
+    padding: 14px 30px;
+}
+
+.button {
+    background-color: transparent; 
+    color: #222222; 
+    border: 2px solid #222222;
+  }
+  
+  .button:hover {
+    background-color: #222222;
+    color: white;
+    transition-duration: 0.8s;
+    cursor: pointer;
+  }
+
+  .footer {
+    position: absolute;
+    top: 1600px;
+    left: 0;
+    height: 70px;
+    width: 5000px;
+    background-color: #222222;
+ }
+
+ .footertxt {
+     color: white;
+     font-family: 'poppins';
+     font-size: 20px;
+     text-align: center;
+ }
+
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('poppins-extrabold-webfont.woff2') format('woff2'),
+         url('poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('poppins-medium-webfont.woff2') format('woff2'),
+         url('poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('poppins-regular-webfont.woff2') format('woff2'),
+         url('poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsthin';
+    src: url('poppins-thin-webfont.woff2') format('woff2'),
+         url('poppins-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*        --------------------------------------------------------------------------------           */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.im {
+    width: 5000px;
+    height: 990px;
+    z-index: -5;
+    position: absolute;
+    top: -53px;
+    left: -1px;
+}
+
+.dtext {
+    font-family: 'poppins thin';
+    color: #222222;
+}
+
+@media (min-width: 384px) {
+
+    .d {
+        position: relative;
+        top: 280px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .title {
+        position: relative;
+        top: 35px;
+        left: 8000px;
+        float: left;
+        color: white;
+        font-family: 'aileronheavy';
+        font-size: 30px;
+    }
+    
+    .home {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 35px;
+        left: -270px;
+        float: right;
+        font-family: 'poppins';
+    }
+
+    .home:hover {
+        border-bottom: solid 1px white;
+    }
+    
+    
+    .discord {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 35px;
+        left: -80px;
+        float: right;
+        font-family: 'poppins';
+    }
+
+    .discord:hover {
+        border-bottom: solid 1px white;
+    }
+    
+    .ic {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: -30px;
+    }
+    
+    .welcome2 {
+        font-family: 'poppinsthin';
+        color: white;
+        font-size: 60px;
+        margin: 300px;
+        text-align: center;
+    }
+    
+}
+
