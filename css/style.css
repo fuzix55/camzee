@@ -1,219 +1,91 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
 
+/* NAV BAR */
 
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95px;
-  padding-top: -150px;
+nav {
+  background-color: #843025;
+  width: 100%;
+  height: 70px;
 }
-
-.button {
-  font-size: 19px;
-  font-family: poppins;
-  padding: 14px 30px;
-}
-
-.button {
-  background-color: transparent; 
-  color: white; 
-  border: 2px solid white;
-}
-
-.button:hover {
-  background-color: white;
-  color: #222222;
-  transition-duration: 0.8s;
-  cursor: pointer;
-}
-
-
-body {
-    overflow-x: hidden;
-}
-
-.navbar {
-    position: absolute;
-    top: 0px;
-    left: -10px;
-    height: 70px;
-    width: 4000px;
-    background-color: #843025;
-}
-
-.footer {
-    position: absolute;
-    top: 1700px;
-    left: -10px;
-    height: 40px;
-    width: 4000px;
-    background-color: #571d16;
-    z-index: -4;
-}
-
-.footer2 {
-    position: absolute;
-    top: 1520px;
-    left: -5px;
-    height: 180px;
-    width: 4000px;
-    background-color: #843025;
-    z-index: -5;
-}
-
 
 .home {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    position: relative;
-    top: 12px;
-    left: -300px;
-    text-decoration: none;
-    font-size: 20px;
-    float: right;
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  float: right;
+  padding: 22px;
+  font-size: 18px;
+  padding-right: 220px;
 }
 
-.videos {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    position: relative;
-    top: 12px;
-    left: -120px;
-    text-decoration: none;
-    font-size: 20px;
-    float: right;
+.discord {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  float: right;
+  padding: 22px;
+  font-size: 18px;
+  padding-left: -290px;
 }
 
 .twitter {
-    position: relative;
-    top: 8px;
-    left: 95px;
-    width: 40px;
-    float: right;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: 16px;
+  margin-right: -320px;
 }
 
-.yt {
-    position: relative;
-    top: 8px;
-    left: 75px;
-    width: 40px;
-    float: right;
+.youtube {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: 16px;
+  margin-right: -380px;
 }
 
 .icon {
-    width: 45px;
-    height: 45px;
-    position: relative;
-    top: 5px;
-    left: 140px;
-    float: left;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: 16px;
+  padding-right: 0px;
+  margin-left: 200px;
 }
 
-.wel {
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    position: relative;
-    color: 	#202020;
-    top: -210px;
+.title {
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 310px;
+  font-size: 37px;
 }
 
-.wel2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    position: relative;
-    color: 	#202020;
-    top: -200px;
+.title2 {
+  color: #333333;
+  font-family: 'Poppins 400', sans-serif;
+  text-align: center;
+  padding-top: -5px;
+  font-size: 30px;
 }
 
-.wel {
-    color: #202020;
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em white; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-  }
-
-  .ftxt {
-      color: white;
-      font-family: arial;
-      padding-top: 12px;
-      padding-left: 25px;
-  }
-
-  .sub {
-    color: white;
-    font-size: 23px;
-    text-align: center;
-    padding-top: 1420px;
-    padding-left: 25px;
-    font-family: 'Poppins Regular', sans-serif;
-  }
-
-  .subbutton {
-    background-color: #571d16;
-    color: white;
-    padding: 5px 10px;
-    font-size: 16px;
-    cursor: pointer;
-    align-content: center;
-    position: absolute;
-    left: 900px;
-    top: 1645px;
-  }
-
-  .button1 {
-    background-color: transparent;
-    font-family: 'Poppins Regular', sans-serif;
-    color: white; 
-    border: 3px solid #571d16;
-    align-content: center;
-  }
-  
-  .button1:hover {
-    background-color: #571d16;
-    color: white;
-  }
-  @media only screen and (max-width: 768px) {
-    .icon {
-        left: 10px;
-    }
-
-    .yt {
-        opacity: 0;
-    }
-
-    .twitter {
-        opacity: 0;
-    }
-
-    .home {
-        left: -115px;
-    }
-
-    .videos {
-        left: 30px;
-    }
-
+.block {
+  background-color: #843025;
+  width: 100%;
+  height: 230px;
+  margin-top: 457px;
 }
+
+.blocktxt {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+
+
+
+
+
