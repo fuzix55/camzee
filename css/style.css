@@ -1,121 +1,33 @@
-body {
-    background-color: #EDEDED;
-}
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
 
-.nav {
-    padding: 20px;
-}
 
-.alert {
-    position: absolute;
-    top: -2px;
-    height: 40px;
-    width: 5000px;
-    background-color: rgb(97, 194, 93);
-    z-index: -1;
- }
-
- .alerttext {
-    font-family: poppins;
-    position: relative;
-    font-size: 17px;
-    text-align: center;
-    margin: -1260px;
-    color: rgb(26, 26, 26);
- }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    padding-top: 250px;
-  }
-
-.button {
-    font-size: 19px;
-    font-family: poppins;
-    padding: 14px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+  padding-top: -150px;
 }
 
 .button {
-    background-color: transparent; 
-    color: #222222; 
-    border: 2px solid #222222;
-  }
-  
-  .button:hover {
-    background-color: #222222;
-    color: white;
-    transition-duration: 0.8s;
-    cursor: pointer;
-  }
-
-  .footer {
-    position: absolute;
-    top: 1600px;
-    left: 0;
-    height: 70px;
-    width: 5000px;
-    background-color: #222222;
- }
-
- .footertxt {
-     color: white;
-     font-family: 'poppins';
-     font-size: 20px;
-     text-align: center;
- }
-
-@font-face {
-    font-family: 'poppinsextrabold';
-    src: url('poppins-extrabold-webfont.woff2') format('woff2'),
-         url('poppins-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-size: 19px;
+  font-family: poppins;
+  padding: 14px 30px;
 }
 
-
-
-
-@font-face {
-    font-family: 'poppinsmedium';
-    src: url('poppins-medium-webfont.woff2') format('woff2'),
-         url('poppins-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+.button {
+  background-color: transparent; 
+  color: white; 
+  border: 2px solid white;
 }
 
-
-
-
-@font-face {
-    font-family: 'poppinsregular';
-    src: url('poppins-regular-webfont.woff2') format('woff2'),
-         url('poppins-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'poppinsthin';
-    src: url('poppins-thin-webfont.woff2') format('woff2'),
-         url('poppins-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/*        --------------------------------------------------------------------------------           */
-
-html {
-  scroll-behavior: smooth;
+.button:hover {
+  background-color: white;
+  color: #222222;
+  transition-duration: 0.8s;
+  cursor: pointer;
 }
 
 
@@ -123,85 +35,185 @@ body {
     overflow-x: hidden;
 }
 
-.im {
-    width: 5000px;
-    height: 990px;
-    z-index: -5;
+.navbar {
     position: absolute;
-    top: -53px;
-    left: -1px;
+    top: 0px;
+    left: -10px;
+    height: 70px;
+    width: 4000px;
+    background-color: #843025;
 }
 
-.dtext {
-    font-family: 'poppins thin';
-    color: #222222;
+.footer {
+    position: absolute;
+    top: 1700px;
+    left: -10px;
+    height: 40px;
+    width: 4000px;
+    background-color: #571d16;
+    z-index: -4;
 }
 
-@media (min-width: 384px) {
+.footer2 {
+    position: absolute;
+    top: 1520px;
+    left: -5px;
+    height: 180px;
+    width: 4000px;
+    background-color: #843025;
+    z-index: -5;
+}
 
-    .d {
-        position: relative;
-        top: 280px;
-        text-align: center;
-        font-size: 30px;
-    }
 
-    .title {
-        position: relative;
-        top: 35px;
-        left: 8000px;
-        float: left;
-        color: white;
-        font-family: 'aileronheavy';
-        font-size: 30px;
-    }
-    
-    .home {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        position: relative;
-        top: 35px;
-        left: -270px;
-        float: right;
-        font-family: 'poppins';
-    }
-
-    .home:hover {
-        border-bottom: solid 1px white;
-    }
-    
-    
-    .discord {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        position: relative;
-        top: 35px;
-        left: -80px;
-        float: right;
-        font-family: 'poppins';
-    }
-
-    .discord:hover {
-        border-bottom: solid 1px white;
-    }
-    
-    .ic {
-    width: 60px;
-    height: 60px;
+.home {
+    font-family: 'Poppins', sans-serif;
+    color: white;
     position: relative;
-    top: 20px;
-    left: -30px;
-    }
-    
-    .welcome2 {
-        font-family: 'poppinsthin';
-        color: white;
-        font-size: 60px;
-        margin: 300px;
-        text-align: center;
-    }
-    
+    top: 12px;
+    left: -300px;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
 }
 
+.videos {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: relative;
+    top: 12px;
+    left: -120px;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+}
+
+.twitter {
+    position: relative;
+    top: 8px;
+    left: 95px;
+    width: 40px;
+    float: right;
+}
+
+.yt {
+    position: relative;
+    top: 8px;
+    left: 75px;
+    width: 40px;
+    float: right;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 5px;
+    left: 140px;
+    float: left;
+}
+
+.wel {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    color: 	#202020;
+    top: -210px;
+}
+
+.wel2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    color: 	#202020;
+    top: -200px;
+}
+
+.wel {
+    color: #202020;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+  .ftxt {
+      color: white;
+      font-family: arial;
+      padding-top: 12px;
+      padding-left: 25px;
+  }
+
+  .sub {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 1420px;
+    padding-left: 25px;
+    font-family: 'Poppins Regular', sans-serif;
+  }
+
+  .subbutton {
+    background-color: #571d16;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
+    position: absolute;
+    left: 900px;
+    top: 1645px;
+  }
+
+  .button1 {
+    background-color: transparent;
+    font-family: 'Poppins Regular', sans-serif;
+    color: white; 
+    border: 3px solid #571d16;
+    align-content: center;
+  }
+  
+  .button1:hover {
+    background-color: #571d16;
+    color: white;
+  }
+  @media only screen and (max-width: 768px) {
+    .icon {
+        left: 10px;
+    }
+
+    .yt {
+        opacity: 0;
+    }
+
+    .twitter {
+        opacity: 0;
+    }
+
+    .home {
+        left: -115px;
+    }
+
+    .videos {
+        left: 30px;
+    }
+
+}
