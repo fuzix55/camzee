@@ -9,8 +9,17 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/png2.png" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
+
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+   <div class="alert">
+     <div class="alertxt">Mobile Friendly Design Coming Soon</div>
+   </div>
 
    <nav>
      <a class="home" href="http://support.camzee.tech">Support</a> 
@@ -20,12 +29,22 @@
      <img src="img/ok.png" class="icon" alt="icon">
    </nav>
 
-   <div class="title">Hi, I'm Cameron.</div>
-   <div class="title2">Thank you for visiting my website!</div>
-
-   <div class="block">
-     <div class="blocktxt">Join the Discord</div>
+   <div class="slideshowbg">
+    <div class="title">Hi, I'm Cameron.</div>
+    <div class="title2">Thank you for visiting my website!</div>
+    <div class="sub3">Scroll down for my full bio.</div>
    </div>
+
+   <div class="subblock">
+    <div class="subblocktxt">Latest Videos</div>
+    <div class="sbtxt2">Some of the best content.</div>
+    <div class="btnblock">
+    <a href="https://www.youtube.com/channel/UCxdayitQEhXLB6dW4ySYzWg?view_as=subscriber" class="btn">Click Here</a>
+   </div>
+
+   <script>
+        $("document").ready($(".loader-wrapper").fadeOut("slow"));
+   </script>
 
 </body>
 </html>
